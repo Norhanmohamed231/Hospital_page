@@ -1,0 +1,223 @@
+*{
+    margin:0;
+    padding: 0;
+}
+/* start nav home section */
+.nav-home{
+    background-color: #020202;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    
+
+}
+.nav-home a{
+
+    text-decoration: none;
+    color:#fff;
+    margin-left: 20px;
+    font-size: 17px;
+    font-family: monospace;
+
+}
+/* end nav home section */
+
+/* start header home section */
+.header-home{
+
+    background-image: url(../image/back.jpg);
+    height: 670px;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: monospace;
+}
+.header-home h2{
+    font-size: 25px;
+    color:#fff;
+    letter-spacing: 1px;
+
+}
+.header-home p{
+    font-size: 16px;
+    color:#fff;
+    letter-spacing: 1px;
+    padding-top: 5px;
+}
+.header-home a{
+    background-color: rgb(117, 12, 66);
+    padding: 10px;
+    color:#fff;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    width:80px;
+    font-size: 15px;
+    font-family: monospace;
+}
+.header-home a:nth-of-type(2){
+    background-color: rgb(30, 110, 43);
+    margin-left: 10px;
+}
+/* end header home section */
+
+/* start main home section */
+.main-home{
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-top:15px;
+}
+.main-home hr{
+    background-color: red;
+    height: 3px;
+    width:200px;
+    text-align:center;
+    border:none;
+    margin-top:7px;
+}
+/* end main home section */
+
+/* start child section */
+
+.child-section{
+    display:flex;
+    flex-wrap:wrap ;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top:40px;
+
+}
+.child-section img{
+    width:40%;
+}
+.child-section p{
+    width: 40%;
+    margin-left: 30px;
+    font-size:13px;
+    letter-spacing:3px;
+    line-height: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.child-section p::first-letter{
+    color: red;
+    font-size: 28px;
+    font-weight: 300;
+    
+}
+
+/* end child section */
+
+/* start =about home section */
+.about-home{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    background-color: rgb(252, 252, 252);
+    margin-top: 20px;
+    padding: 20px;
+
+}
+.about-section{
+    width:40%;
+    background-color: #fff;
+    border: 2px solid #00000000;
+    padding: 20px;
+    margin-bottom: 25px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-home img{
+    width:90%;
+}
+.about-home p{
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 7px;
+}
+
+/* end =about home section */
+
+/* start contact home section */
+
+.contact-home{
+    background-image: url(../image/contact\ us.gif);
+    background-size: cover;
+    height: 270px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: Arial;
+}
+.contact-home h3{
+    color:#fff;
+    letter-spacing: 2px;
+    padding:20px 10px;
+}
+.contact-home form{
+    display:flex;
+    flex-direction: column;
+    width:50%;
+    align-items: center;
+    
+}
+.contact-home form input{
+    width:100%;
+    margin-bottom: 20px;
+    height:27px;
+    padding-left: 10px;
+}
+.contact-home form input:hover{
+    outline: none;
+}
+.contact-home form input:nth-of-type(3){
+    height: 33px;
+}
+.contact-home form input:nth-of-type(4){
+    width:70px;
+    background-color: #000;
+    color:#fff;
+    border:none;
+    padding: 5px;
+    font-size: 16px;
+    
+}
+/* start footer section */
+.footer-home{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../image/html-color-codes-color-tutorials-hero-00e10b1f.jpg);
+    background-size: cover;
+    height: 200px;
+    width:100%;
+    text-align: center;
+
+}
+.footer-home h3{
+    font-size: 18px;
+    margin-top: 20px;
+}
+.footer-home form input:nth-of-type(1){
+    padding-left: 10px;
+}
+.footer-home form input:nth-of-type(2){
+    width:70px;
+    color:#fff;
+    background-color: #000;
+    border:none;
+    
+}
+/* end footer section */
+
+/* end contact home section */
+
+
+
